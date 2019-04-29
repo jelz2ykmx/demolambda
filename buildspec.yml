@@ -9,6 +9,7 @@ artifacts:
   files:
     - template.yaml
     - outputemplatefile.yaml
+    - '**/*.*'
    
     
         
