@@ -1,0 +1,13 @@
+version: 0.2
+            
+phases:
+  install:
+    - aws cloudformation package -template-file template.yaml -s3-bucket democloudlambda -output-template-file outputemplatefile.yaml
+    commands:
+      - command
+      - command
+artifacts:
+  type: zip
+  files:
+    - template.yaml
+    - outputemplatefile.yaml
