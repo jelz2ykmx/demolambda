@@ -9,4 +9,4 @@ artifacts:
   files:
     - template.yaml
     - outputemplatefile.yaml
-  name: myApplp
+        
