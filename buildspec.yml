@@ -9,6 +9,6 @@ artifacts:
   files:
     - template.yaml
     - outputemplatefile.yaml
-    - ***/*.js'
+    - '**/*.js'
     
         
